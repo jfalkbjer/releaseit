@@ -7,7 +7,7 @@
             "gitRawCommitsOpts": {
                 "from": "$(git describe --tags --abbrev=0)",
                 "to": "HEAD",
-                "format": "* %s"
+                "format": "- %s"
             }
         }
     },
