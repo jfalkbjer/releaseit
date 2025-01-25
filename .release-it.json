@@ -13,8 +13,9 @@
             "addUnreleased": true,
             "keepUnreleased": true,
             "gitRawCommitsOpts": {
-                "format": "* %s",
-                "from": "${latestTag}"
+                "from": "${latestTag}",
+                "to": "HEAD",
+                "format": "* %s"
             }
         }
     }
