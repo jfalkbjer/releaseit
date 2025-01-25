@@ -7,8 +7,7 @@
             "gitRawCommitsOpts": {
                 "from": "${latestTag}",
                 "to": "HEAD",
-                "format": "* %s",
-                "grep": "^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\\(.+\\))?:"
+                "format": "* %s"
             }
         }
     },
