@@ -8,7 +8,7 @@
             "addUnreleased": true,
             "keepUnreleased": true,
             "gitRawCommitsOpts": {
-                "from": "${latestTag}",
+                "from": "$(git describe --tags --abbrev=0)",
                 "to": "HEAD",
                 "format": "* %s"
             }
