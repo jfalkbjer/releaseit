@@ -1,8 +1,4 @@
 {
-    "$schema": "https://unpkg.com/release-it@18/schema/release-it.json",
-    "github": {
-        "release": true
-    },
     "plugins": {
         "@release-it/keep-a-changelog": {
             "filename": "CHANGELOG.md",
@@ -11,7 +7,8 @@
             "gitRawCommitsOpts": {
                 "from": "${latestTag}",
                 "to": "HEAD",
-                "format": "* %s"
+                "format": "* %s",
+                "grep": "^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\\(.+\\))?:"
             }
         }
     },
