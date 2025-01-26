@@ -1,21 +1,21 @@
 {
+    "hooks": {
+        "before:release": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
+        "after:bump": "sed -i '' -E \"s@version.s*=.s*'.*'@version = '$(echo ${version} | awk -F. -v OFS=. '{$NF=$NF+1; print}')-SNAPSHOT'@g\" build.gradle"
+    },
     "plugins": {
         "@release-it/conventional-changelog": {
             "preset": {
                 "name": "conventionalcommits"
             },
             "infile": "CHANGELOG.md",
+            "context": {
+                "release_it_timestamp": "${RELEASE_IT_TIMESTAMP}"
+            },
             "writerOpts": {
                 "headerPartial": "## {{version}} - {{release_it_timestamp}}"
-            },
-            "context": {
-                "release_it_timestamp": "$(echo ${RELEASE_IT_TIMESTAMP})"
             }
         }
-    },
-    "hooks": {
-        "before:release": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
-        "after:bump": "sed -i '' -E \"s@version.s*=.s*'.*'@version = '$(echo ${version} | awk -F. -v OFS=. '{$NF=$NF+1; print}')-SNAPSHOT'@g\" build.gradle"
     },
     "git": {
         "requireBranch": "main",
