@@ -6,14 +6,15 @@
             },
             "infile": "CHANGELOG.md",
             "writerOpts": {
-                "headerPartial": "## {{version}} - {{date}}"
+                "headerPartial": "## {{version}} - {{release_it_timestamp}}"
             },
             "context": {
-                "date": "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+                "release_it_timestamp": "${RELEASE_IT_TIMESTAMP}"
             }
         }
     },
     "hooks": {
+        "before:release": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
         "after:bump": "sed -i '' -E \"s@version.s*=.s*'.*'@version = '$(echo ${version} | awk -F. -v OFS=. '{$NF=$NF+1; print}')-SNAPSHOT'@g\" build.gradle"
     },
     "git": {
