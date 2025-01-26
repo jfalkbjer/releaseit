@@ -4,7 +4,8 @@
             "preset": {
                 "name": "conventionalcommits"
             },
-            "infile": "CHANGELOG.md"
+            "infile": "CHANGELOG.md",
+            "header": "## ${version} - ${timestamp}"
         }
     },
     "hooks": {
