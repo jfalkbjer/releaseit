@@ -1,17 +1,17 @@
 {
     "plugins": {
-        "@release-it/keep-a-changelog": {
-            "filename": "CHANGELOG.md",
-            "addUnreleased": true,
-            "keepUnreleased": true,
-            "gitRawCommitsOpts": {
-                "from": "$(git describe --tags --abbrev=0)",
-                "to": "HEAD",
-                "format": "- %s"
-            }
+        "@release-it/conventional-changelog": {
+            "preset": {
+                "name": "conventionalcommits"
+            },
+            "infile": "CHANGELOG.md"
         }
     },
+    "hooks": {
+        "after:bump": "echo 'Hello World'"
+    },
     "git": {
+        "requireBranch": "main",
         "commitMessage": "chore(release): ${version}",
         "tagName": "v${version}"
     }
