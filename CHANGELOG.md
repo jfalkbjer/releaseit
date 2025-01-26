@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.0](https://github.com/jfalkbjer/releaseit/compare/v0.0.4...v0.1.0) (2025-01-26)
+
+### Features
+
+* bump version in build.gradle ([4de8590](https://github.com/jfalkbjer/releaseit/commit/4de85908eccb96076ab7df4fa3a7852df0cafcdd))
+
 ## [0.0.4](https://github.com/jfalkbjer/releaseit/compare/v0.0.3...v0.0.4) (2025-01-26)
 
 ### Bug Fixes
