@@ -8,6 +8,18 @@
 * trying again ([7992988](https://github.com/jfalkbjer/releaseit/commit/799298818cb04da5fd5d50e5f9984a107a62e4b6))
 * trying again with echo ([be3c32b](https://github.com/jfalkbjer/releaseit/commit/be3c32b8faf24a2fef40950e8f461af2fb78bc3e))
 * trying again without echo ([266e810](https://github.com/jfalkbjer/releaseit/commit/266e810fe94b6f2e9689700ebe0365c978e933db))
+* trying another hook ([c86ff72](https://github.com/jfalkbjer/releaseit/commit/c86ff7263f576a195c4d96638efaac00b65f8ec6))
+* trying rearrange in configuration ([e89320a](https://github.com/jfalkbjer/releaseit/commit/e89320aa36a37dd6431ea76fd5ebb9ae17ff4b41))
+* trying with echo in context ([4ebe326](https://github.com/jfalkbjer/releaseit/commit/4ebe32668f0c65c1c43674d7e37c05067b3927a6))
+
+## 0.1.5 - ${RELEASE_IT_TIMESTAMP}
+### Bug Fixes
+
+* env again ([9ac4fd9](https://github.com/jfalkbjer/releaseit/commit/9ac4fd939bc3768a686344377b0ba67dc24b20e7))
+* rying with setting env variable via hook ([a5b4a28](https://github.com/jfalkbjer/releaseit/commit/a5b4a28130860375664ab275cc6238179f29cd3e))
+* trying again ([7992988](https://github.com/jfalkbjer/releaseit/commit/799298818cb04da5fd5d50e5f9984a107a62e4b6))
+* trying again with echo ([be3c32b](https://github.com/jfalkbjer/releaseit/commit/be3c32b8faf24a2fef40950e8f461af2fb78bc3e))
+* trying again without echo ([266e810](https://github.com/jfalkbjer/releaseit/commit/266e810fe94b6f2e9689700ebe0365c978e933db))
 * trying rearrange in configuration ([e89320a](https://github.com/jfalkbjer/releaseit/commit/e89320aa36a37dd6431ea76fd5ebb9ae17ff4b41))
 * trying with echo in context ([4ebe326](https://github.com/jfalkbjer/releaseit/commit/4ebe32668f0c65c1c43674d7e37c05067b3927a6))
 
