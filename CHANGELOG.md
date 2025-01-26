@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.5 - ${RELEASE_IT_TIMESTAMP}
+### Bug Fixes
+
+* rying with setting env variable via hook ([a5b4a28](https://github.com/jfalkbjer/releaseit/commit/a5b4a28130860375664ab275cc6238179f29cd3e))
+* trying again ([7992988](https://github.com/jfalkbjer/releaseit/commit/799298818cb04da5fd5d50e5f9984a107a62e4b6))
+* trying again with echo ([be3c32b](https://github.com/jfalkbjer/releaseit/commit/be3c32b8faf24a2fef40950e8f461af2fb78bc3e))
+* trying again without echo ([266e810](https://github.com/jfalkbjer/releaseit/commit/266e810fe94b6f2e9689700ebe0365c978e933db))
+
 ## 0.1.5 - $(date -u '+%Y-%m-%dT%H:%M:%SZ')
 ### Bug Fixes
 
