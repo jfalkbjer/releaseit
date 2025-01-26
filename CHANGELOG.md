@@ -1,3 +1,11 @@
+## ${version} - ${timestamp}
+
+## [0.1.3](https://github.com/jfalkbjer/releaseit/compare/v0.1.2...v0.1.3) (2025-01-26)
+
+### Bug Fixes
+
+* add timestamp to version and not just a date ([b908bc8](https://github.com/jfalkbjer/releaseit/commit/b908bc84704e9ac69fe5d0ccef7fe44304c4c411))
+
 # Changelog
 
 ## [0.1.2](https://github.com/jfalkbjer/releaseit/compare/v0.1.1...v0.1.2) (2025-01-26)
