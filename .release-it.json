@@ -1,6 +1,6 @@
 {
     "hooks": {
-        "before:release": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
+        "before:init": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
         "after:bump": "sed -i '' -E \"s@version.s*=.s*'.*'@version = '$(echo ${version} | awk -F. -v OFS=. '{$NF=$NF+1; print}')-SNAPSHOT'@g\" build.gradle"
     },
     "plugins": {
