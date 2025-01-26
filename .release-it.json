@@ -1,6 +1,5 @@
 {
     "hooks": {
-        "before:init": "export RELEASE_IT_TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
         "after:bump": "sed -i '' -E \"s@version.s*=.s*'.*'@version = '$(echo ${version} | awk -F. -v OFS=. '{$NF=$NF+1; print}')-SNAPSHOT'@g\" build.gradle"
     },
     "plugins": {
@@ -8,14 +7,7 @@
             "preset": {
                 "name": "conventionalcommits"
             },
-            "infile": "CHANGELOG.md",
-            "context": {
-                "release_it_timestamp": "echo $RELEASE_IT_TIMESTAMP"
-            },
-            "writerOpts": {
-                "headerPartial": "## {{version}} - {{release_it_timestamp}}"
-            }
-        }
+            "infile": "CHANGELOG.md"        }
     },
     "git": {
         "requireBranch": "main",
