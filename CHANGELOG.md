@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0](https://github.com/jfalkbjer/releaseit/compare/v0.1.5...v0.2.0) (2025-01-26)
+
+### Features
+
+* just some formatting and testing feat ([06af261](https://github.com/jfalkbjer/releaseit/commit/06af261316ef745a496b27e05fd6cf22794f6651))
+
 ## [0.1.5](https://github.com/jfalkbjer/releaseit/compare/v0.1.4...v0.1.5) (2025-01-26)
 
 ### Bug Fixes
