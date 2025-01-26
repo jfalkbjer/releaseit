@@ -6,7 +6,10 @@
             },
             "infile": "CHANGELOG.md",
             "writerOpts": {
-                "headerPartial": "## {{version}} - {{RELEASE_IT_TIMESTAMP}}"
+                "headerPartial": "## {{version}} - {{release_it_timestamp}}"
+            },
+            "context": {
+                "release_it_timestamp": "$(echo ${RELEASE_IT_TIMESTAMP})"
             }
         }
     },
