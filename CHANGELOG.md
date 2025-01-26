@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.1](https://github.com/jfalkbjer/releaseit/compare/v0.1.0...v0.1.1) (2025-01-26)
+
+### Bug Fixes
+
+* sed command to bump version ([8cc02f0](https://github.com/jfalkbjer/releaseit/commit/8cc02f044f4ec6041aaf107be6a6a31903e341b3))
+
 ## [0.1.0](https://github.com/jfalkbjer/releaseit/compare/v0.0.4...v0.1.0) (2025-01-26)
 
 ### Features
