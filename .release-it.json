@@ -8,7 +8,7 @@
         }
     },
     "hooks": {
-        "after:bump": "echo 'Hello World'"
+        "after:bump": "sed -i '' -E \"s/version\\s*=\\s*['\\\"](.*)['\\\"]/version = '${version}'/\" build.gradle"
     },
     "git": {
         "requireBranch": "main",
