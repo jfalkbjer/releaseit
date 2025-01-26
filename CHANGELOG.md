@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5 - date -u '+%Y-%m-%dT%H:%M:%SZ'
+### Bug Fixes
+
+* trying again ([7992988](https://github.com/jfalkbjer/releaseit/commit/799298818cb04da5fd5d50e5f9984a107a62e4b6))
+
 ## 0.1.4 - $(date -u '+%Y-%m-%dT%H:%M:%SZ')
 ### Bug Fixes
 

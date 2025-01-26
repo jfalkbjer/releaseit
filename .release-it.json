@@ -9,7 +9,7 @@
                 "headerPartial": "## {{version}} - {{date}}"
             },
             "context": {
-                "date": "date -u '+%Y-%m-%dT%H:%M:%SZ'"
+                "date": "echo $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
             }
         }
     },
