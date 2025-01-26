@@ -1,3 +1,10 @@
+# Changelog
+
+## 0.1.4 - $(date -u '+%Y-%m-%dT%H:%M:%SZ')
+### Bug Fixes
+
+* using UTC time ([4562e7b](https://github.com/jfalkbjer/releaseit/commit/4562e7bb0ff028fe7c9802720e1ee0d1bcd94482))
+
 ## ${version} - ${timestamp}
 
 ## [0.1.3](https://github.com/jfalkbjer/releaseit/compare/v0.1.2...v0.1.3) (2025-01-26)
@@ -6,7 +13,7 @@
 
 * add timestamp to version and not just a date ([b908bc8](https://github.com/jfalkbjer/releaseit/commit/b908bc84704e9ac69fe5d0ccef7fe44304c4c411))
 
-# Changelog
+
 
 ## [0.1.2](https://github.com/jfalkbjer/releaseit/compare/v0.1.1...v0.1.2) (2025-01-26)
 
