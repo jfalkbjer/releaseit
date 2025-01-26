@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5 - echo $(date -u '+%Y-%m-%dT%H:%M:%SZ')
+### Bug Fixes
+
+* trying again ([7992988](https://github.com/jfalkbjer/releaseit/commit/799298818cb04da5fd5d50e5f9984a107a62e4b6))
+* trying again with echo ([be3c32b](https://github.com/jfalkbjer/releaseit/commit/be3c32b8faf24a2fef40950e8f461af2fb78bc3e))
+
 ## 0.1.5 - date -u '+%Y-%m-%dT%H:%M:%SZ'
 ### Bug Fixes
 
