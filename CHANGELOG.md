@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/jfalkbjer/releaseit/compare/v0.1.1...v0.1.2) (2025-01-26)
+
+### Bug Fixes
+
+* bump version and add -SNAPSHOT to the version in build.gradle ([7f1f970](https://github.com/jfalkbjer/releaseit/commit/7f1f97014e073505638f6fe3862e92d4aee9234e))
+
 ## [0.1.1](https://github.com/jfalkbjer/releaseit/compare/v0.1.0...v0.1.1) (2025-01-26)
 
 ### Bug Fixes
